@@ -1,16 +1,7 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+n="example"
+print(n[0])# первый символ этой строки
+print(n[-7])# последний символ этой строки (используя отрицательный индекс)
+print(n[3:])# вторую половину этой строки (С нечётным количеством символов: 'Urban' -> 'ban')
+print(n[::-1])# это слово наоборот
+print(n[1:7:2])# каждый второй символ этой строки. (Пример: 'Топинамбур'->'оиабр')
